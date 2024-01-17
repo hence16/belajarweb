@@ -1,0 +1,87 @@
+/*header*/
+.main-nav {
+    background-color: #003566;
+}
+.main-nav .navbar-nav a.nav-link {
+    color: #FFFF;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav.link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #FFC300;
+}
+.navbar.scrolled {
+    background-color: #FFFF;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+}
+.navbar.scrolled a.nav-link {
+    color: #666;
+}
+.navbar img.main-logo {
+    max-width: 250px;
+}
+.navbar img.main-logohitam {
+    display: none;
+}
+.navbar.scrolled img.main-logohitam {
+    display: inline-block;
+}
+.navbar.navbar.scrolled img.main-logoputih {
+    display: none;
+}
+/*untuk ajakan*/
+.main-biru {
+    background-color: #003566;
+    color: #FFFF;
+}
+.main-biru h2 span {
+    color: #FFC300;
+}
+button.btn-primary {
+    background-color: #FFC300;
+}
+h2.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 5px solid #FFC300;
+    width: 900px;
+    border-radius: 25px;
+    content: "";
+
+}
+/*untuk akun media sosial*/
+#main-mediasosial img {
+    max-height: 50px;
+    max-width: 150px;
+}
+#main-mediasosial a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/*footer*/
+.main-footermenu h3 {
+    color: #CCC;
+    margin-bottom: 15px;
+}
+.main-footermenu a {
+    color: #FFFF;
+    text-decoration: none;
+}
+.main-footermenu a:hover {
+    color: #FFC300;
+}
+.main-footermenu ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: opx;
+}
+.main-footermenu ul li {
+    margin-bottom: 10px;
+}
+.main-footercopyright {
+    background-color: #001D3D;
+    color: #FFFF;
+}
